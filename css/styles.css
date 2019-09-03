@@ -3,6 +3,13 @@
 	text-align: center;
 }
 
+@font-face {
+	font-family: Avenir;
+	src: url("https://fonts.gstatic.com/l/font?kit=ijwUs5PnXdA4ZZUA55d-m2FJXA&skey=8887f17a62203d44&v=v2"),
+	url("https://fonts.gstatic.com/l/font?kit=ijwUs5PnXdA4ZZUA6Zd-m2FJXA&skey=8887f17a62203d44&v=v2");
+	font-display: swap;
+}
+
 header {
 	background: url("../img/milkbg.jpg") no-repeat;
 	background-size: cover;
@@ -13,6 +20,8 @@ header {
 header > div {
 	color: white;
 	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 100px;
+	padding: auto;
 }
 
 p {
@@ -22,14 +31,6 @@ p {
 
 .row {
 	padding: 1.25rem;
-}
-
-.col img:nth-child(odd){
-/* 	float: right; */
-}
-
-.col img:nth-child(even) {
-	
 }
 
 #left {
@@ -67,3 +68,7 @@ p {
 	padding: 0.02rem 0.4rem;
 	border-radius: 0.25rem;
 }*/
+
+@media only screen and (min-width: 1200px) {
+	
+}
